@@ -1,0 +1,11 @@
+.table{
+    margin: auto;
+    margin: 0 auto !important;
+    align-items: center;
+}
+.table .thead-custom{
+    background-color: blue !important;
+    color: white;
+  text-align: center;
+
+}

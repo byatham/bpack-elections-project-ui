@@ -1,0 +1,29 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+
+.sidebar
+{
+    background-color: yellow;
+    height: 10px;
+    padding: 10px;
+
+    margin-bottom: 38px;
+  
+}
+
+.wrapper  ul li a{
+    display:block;
+    padding:5px 10px;
+    color: black;
+}
+
+.wrapper .sidebar ul li a:hover, .wrapper .sidebar ul li a:active{
+   background: red;
+    color: black;
+}

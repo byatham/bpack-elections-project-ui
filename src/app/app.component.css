@@ -1,0 +1,18 @@
+.logoheader
+{
+    background-color: yellow;
+    height: 20px;
+}
+
+.headercontent{
+    background-color: yellow;
+    height: 20px;
+}
+
+.routeroutput{
+      
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 10px; 
+    align-items: right;
+}

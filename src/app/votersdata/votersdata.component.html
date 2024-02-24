@@ -1,0 +1,38 @@
+<table class="table" >
+  <thead class="thead-custom1">
+  <tr>
+    <th>serialNumber</th>
+    <th>name</th>
+    <th>familyHead</th>
+    <th>voterId</th>
+    <th>mobileNumber</th>
+    <th>gender</th>
+    <th>caste</th>
+    <th>subCaste</th>
+    <th>age</th>
+    <th>ward</th>
+    <th>boothNumber</th>
+    <th>address</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor=" let data of allVoters">
+  <td>{{data.serialNumber}}</td>
+  <td>{{data.name}}</td>
+  <td>{{data.familyHead}}</td>
+  <td>{{data.voterId}}</td>
+  <td>{{data.mobileNumber}}</td>
+  <td>{{data.gender}}</td>
+  <td>{{data.caste}}</td>
+  <td>{{data.subCaste}}</td>
+  <td>{{data.age}}</td>
+  <td>{{data.ward}}</td>
+  <td>{{data.boothNumber}}</td>
+  <td>{{data.address}}</td>
+  
+
+  </tr>
+
+  </tbody>
+
+</table>
